@@ -1,7 +1,7 @@
 /*
 Author: Sirvan Almasi
 Imperial College London
-git: github.com/sirvan3tr
+git: https://github.com/sirvan3tr/RemNote-Pomodoro
 Date created: 14 Aug 2020
 Version: 1.0.0
 */
@@ -102,7 +102,7 @@ class Pomodoro {
     clearInterval(this.interval);
     document.getElementById(this.dispDiv).innerHTML =
       "Good job! Time for a break.";
-    this.locStorage.remoeItem(this.locKey);
+    this.locStorage.removeItem(this.locKey);
   }
   
   stop() {
