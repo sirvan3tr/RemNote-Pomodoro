@@ -175,4 +175,3 @@ document.getElementById("pomodoro_stop").onclick = () => {
 };
 
 getTag();
-v
