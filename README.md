@@ -1,6 +1,9 @@
 # RemNote-Pomodoro
 A plugin for RemNote.io. This plugin is a pomodoro timer; You can get the plugin to record your events to a document on RemNote.
 
+Inline-style: 
+![alt text](https://github.com/sirvan3tr/RemNote-Pomodoro/blob/master/img/remnotepom.gif "Pomodoro Gif Starter")
+
 # Installation
 Installing this plugin on your RemNote is very easy. Login to your account and follow these steps:
 This current version allows you to have few personalised settings: Changing the 25min timer to something else e.g. 30min; whether to log your pomodoro events and where to log this information. All of these settings are defined in the Plugin URL paramters.
