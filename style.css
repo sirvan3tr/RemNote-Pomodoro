@@ -1,0 +1,50 @@
+body {
+  font-size:14px;
+}
+#container {
+  position: relative;
+  margin: -8px 0 0 -8px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #ccc;
+  background-color:#eee;
+}
+#pomodoro_container {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  min-width:65px;
+  font-weight: bold;
+}
+.pomodoro_button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  width: 40px;
+}
+.pomodoro_button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+.console {
+  font-family: monaco, "andale mono", "lucida console", "courier new", monospace;
+  margin-left: 20px;
+}
+#pomodoro_console {
+  font-family: monaco, "andale mono", "lucida console", "courier new", monospace;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+#pomodoro_console:focus{
+outline: none;
+box-shadow: none;
+border: none;
+}
+
+#pomodoro_console :hover{
+border: 1px solid #999;
+border-radius: 5px;
+}
